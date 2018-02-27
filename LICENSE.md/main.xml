@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:weightSum="1" android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:text="MoVend Test Application" android:id="@+id/textView1"
+		android:textStyle="bold" android:textSize="20sp" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"></TextView>
+	<LinearLayout android:layout_width="fill_parent" android:orientation="vertical"
+		android:gravity="center_vertical" android:layout_weight="1"
+		android:layout_height="0dip" android:id="@+id/linearLayout1">
+
+		<Button android:layout_width="fill_parent"
+			android:layout_gravity="center_horizontal" android:layout_height="wrap_content"
+			android:layout_margin="10dip" android:text="Click to test activation product"
+			android:id="@+id/btnActivation"></Button>
+		<Button android:text="Click to test subscription product" android:id="@+id/btnSubscription"
+			android:layout_gravity="center_horizontal" android:layout_width="fill_parent"
+			android:layout_margin="10dip" android:layout_height="wrap_content"></Button>
+		<Button android:text="Click to test consumable product" android:id="@+id/btnConsumable"
+			android:layout_gravity="center_horizontal" android:layout_width="fill_parent"
+			android:layout_margin="10dip" android:layout_height="wrap_content"></Button>
+	</LinearLayout>
+</LinearLayout>
